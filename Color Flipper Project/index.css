@@ -1,0 +1,76 @@
+body{ 
+    background-color: rgb(246, 252, 252);
+    font-family: monospace;
+}
+
+.nav-center{
+    background-color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.384);
+    height: 2.5rem;
+}
+
+.nav-links{ 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.nav-links a:hover{ 
+    color: rgb(56, 168, 168);
+}
+
+.nav-center h4{ 
+    color: rgb(56, 168, 168);
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+.nav-center a{ 
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.container{ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    border-radius: 10px;
+    height: 5rem;
+    margin-top: 10rem;
+}
+
+.container h2{ 
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+.color{ 
+    display: block;
+    color: rgb(80, 183, 231);
+}
+
+.btn-hero{ 
+    position: relative;
+    top: 3rem;
+    border:solid;
+    border-radius: 6px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    background-color: rgba(246, 252, 252, 0);
+    cursor: pointer;
+}
+
+.btn-hero:hover{ 
+    color: white;
+    background-color: black;
+}
